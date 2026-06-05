@@ -3,127 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pizzaria Sampa ssasas</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  overflow-y: auto;
-}
-
-       .card {
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            padding: 20px;
-            width: 300px;
-            margin: 0 15px;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-            text-decoration: none;
-            color: #333;
-        }
-
-       .card:hover {
-            background-color: #f7f7f7;
-        }
-
-       .card-title {
-            font-size: 1.5rem;
-            font-weight: bold;
-            margin-bottom: 10px;
-        }
-
-       .card-content {
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-        }
-
-       .card-icon {
-            display: flex;
-            align-items: center;
-            gap: 5px;
-            font-size: 1.2rem;
-        }
-
-       .city-logo {
-            width: 200px;
-            height: 200px;
-            margin: 20px auto;
-            display: block;
-        }
-/* Media Queries para dispositivos móveis */
-@media screen and (max-width: 768px) {
- .container {
-display: flex;    
-flex-direction: column;
-justify-content: flex-start;
-overflow-y: auto;
-height: 100vh;
-padding-top: 20px;
-padding-bottom: 20px;
-  }
- /* Adicione essa linha para dar espaço entre os cards */
-  .card + .card {
-    margin-top: 20px; /* ajuste o valor de acordo com sua necessidade */
-  }
-}
-    /* Media Queries para tablets */
-    @media screen and (min-width: 768px) and (max-width: 1024px) {
-        .card {
-            margin: 15px;
-        }
-    }
-
-    /* Media Queries para desktops */
-    @media screen and (min-width: 1024px) {
-        .card {
-            margin: 15px;
-        }
-    }
-
-    </style>
+    <title>Para o Meu Amor, Adriana</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
-        <a href="https://menu.brendi.com.br/pizzaria-sampa-pizzaria-sampa-cacoal" target="_blank" class="card">
-            <img src="cacoal-logo.png" class="city-logo">
-            <h2 class="card-title">Pizzaria Sampa Cacoal</h2>
-            <div class="card-content">
-                <div class="card-icon">
-                    <p>Rua Antonio de Paula Nunes, 760 - Princesa Isabel - Cacoal</p>
-                </div>
-                <div class="card-icon">
-                    <i class="fas fa-clock"></i>
-                    <p>20 - 49 min</p>
-                </div>
+        <main class="card">
+            <h1 class="title">Feliz Dia dos Namorados!</h1>
+            
+            <div class="image-container">
+                <img src="IMG-20250706-WA0000.jpg" alt="Roger e Adriana" class="couple-img">
             </div>
-        </a>
-        <a href="https://menu.brendi.com.br/pizzaria-sampa-vilhena" target="_blank" class="card">
-            <img src="vilhena-logo.png" class="city-logo">
-            <h2 class="card-title">Pizzaria Sampa Vilhena</h2>
-            <div class="card-content">
-                <div class="card-icon">
-                    <p>Av. Brigadeiro Eduardo Gomes, 1048 - Jardim Eldorado - Vilhena</p>
-                </div>
-                <div class="card-icon">
-                    <i class="fas fa-clock"></i>
-                    <p>20 - 49 min</p>
-                </div>
+            
+            <div class="content">
+                <p class="greeting">Minha querida Adriana,</p>
+                <p>Olhar para nós dois nessa foto, sorrindo e celebrando juntos, me faz lembrar do privilégio imenso que é compartilhar a vida com você. Desde os momentos mais alegres e festivos, como o nosso São João, até a calmaria e os desafios reais do nosso cotidiano, sua presença é o que dá sentido a tudo.</p>
+                <p>Você é o meu porto seguro, a força silenciosa que me apoia em cada projeto e o sorriso que ilumina os meus dias mais longos. Minha companheira de jornada, dona do meu coração e o meu amor mais profundo.</p>
+                <p>Obrigado por ser exatamente quem você é, por construir uma história tão linda ao meu lado e por me fazer querer ser alguém melhor a cada dia.</p>
+                
+                <p class="highlight">Do São João para a eternidade...</p>
+                <p class="closing">Te amo para sempre!</p>
             </div>
-        </a>
+            
+            <div class="divider">
+                <span class="heart">♥</span>
+            </div>
+            
+            <footer class="footer">
+                Com todo o meu amor, <br><strong>Roger</strong>
+            </footer>
+        </main>
     </div>
 </body>
-
 </html>
